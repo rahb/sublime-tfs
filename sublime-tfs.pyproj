@@ -6,7 +6,7 @@
     <ProjectGuid>{80c54aab-d4f8-43b5-9e27-600bffc66d80}</ProjectGuid>
     <ProjectHome />
     <StartupFile>sublime_tfs.py</StartupFile>
-    <SearchPath />
+    <SearchPath>..\..\..\..\..\..\..\..\Program Files\Sublime Text 3\</SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>

@@ -8,10 +8,12 @@ import stat
 import subprocess
 import sys
 import threading
+import platform
 # ------------------------------
 OS_ENCODING = locale.getpreferredencoding()
 IS_PYTHON_2 = (sys.hexversion < 0x03000000)
 IS_PYTHON_3 = (sys.hexversion > 0x03000000)
+OS = platform.system()
 # ------------------------------
 TRACE_INFO_ENABLED = False
 TRACE_ERROR_ENABLED = True
