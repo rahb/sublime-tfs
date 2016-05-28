@@ -1,23 +1,29 @@
 {
-	// specifies path to Team Foundation (TF.exe). Mandatory for all commands.
-	"tf_path": "C:/Program Files (x86)/Microsoft Visual Studio 10.0/Common7/IDE/TF.exe",
+  // specifies path to Team Foundation (TF.exe). Mandatory for all commands.
+  "tf_path": "C:/Program Files (x86)/Microsoft Visual Studio 10.0/Common7/IDE/TF.exe",
 
-	// specifies path to TFS Power Tools (TFPT.exe). Mandatory for Annotate command.
-	"tfpt_path": "C:/Program Files (x86)/Microsoft Team Foundation Server 2010 Power Tools/TFPT.exe",
+  // specifies path to TFS Power Tools (TFPT.exe). Mandatory for Annotate command.
+  "tfpt_path": "C:/Program Files (x86)/Microsoft Team Foundation Server 2010 Power Tools/TFPT.exe",
 
-	// if set to [false] - Sublime Text will show confirmation prompt on every checkout attempt,
-	// otherwise it will attempt checkout file on modification/save silently.
-	"auto_checkout_enabled" : true,
+  // if set to [false] - Sublime Text will show confirmation prompt on every checkout attempt,
+  // otherwise it will attempt checkout file on modification/save silently.
+  "auto_checkout_enabled": true,
 
-	// if [auto_checkout_enabled] is set to [true], Sublime Text will wait until this timeout to consider it fails during checkout
-	"auto_checkout_timeout" : 5,
+  // if [auto_checkout_enabled] is set to [true], Sublime Text will wait until this timeout to consider it fails during checkout
+  "auto_checkout_timeout": 5,
 
-	// custom credential [username] to access TFS. If [null] - no custom credentials is used to access TFS repo.
-	"tfs_username": null,
+  // custom credential [username] to access TFS. If [null] - no custom credentials is used to access TFS repo.
+  "tfs_username": null,
 
-	// custom credential [password] to access TFS - but remember that is not secure to store password in sublime text config.
-	"tfs_password": null,
+  // custom credential [password] to access TFS - but remember that is not secure to store password in sublime text config.
+  "tfs_password": null,
 
-	// if set to [true] - execute every tfs-command in 'graphic' mode - can be useful for custom authentification (if needed)
-	"always_is_graph": false
+  // if set to [true] - execute every tfs-command in 'graphic' mode - can be useful for custom authentification (if needed)
+  "always_is_graph": false,
+
+  // local path of TFS folder
+  "tf_local_path": "",
+
+  //if set to true, creates file in current open folder that will override local json. enabling this overrides local .json
+  "prefer_remote_source":  true
 }
